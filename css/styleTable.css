@@ -1,0 +1,22 @@
+/*Tamaño de la tabla*/
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.color{
+    background-color: greenyellow;
+}
+
+/*Definir un tamaño a la imagen*/
+
+img{
+    height: 200px;
+}
