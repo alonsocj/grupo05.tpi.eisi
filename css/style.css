@@ -1,6 +1,6 @@
 /*Barra de Navegación*/
 
-ul{
+ol{
     list-style-type: none; /*Le quito los puntos*/
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ ul{
     min-width: 150px;
 }
 
-.desplegable li ul{
+.desplegable li ol{
     display: none;
     position: absolute;
     min-width: 140px;
@@ -35,7 +35,7 @@ ul{
 /* > significa los elementos que sean directos */
 /*Esta es la propiedad en la que el menu se despliega*/
 
-.desplegable li:hover > ul{
+.desplegable li:hover > ol{
     display: block;
 }
 
