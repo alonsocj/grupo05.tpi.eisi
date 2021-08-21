@@ -44,3 +44,12 @@ ol{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.operaciones{
+    font-weight: bold;
+}
+.descripciones{
+    font-style: italic;
+}
+.parrafo{
+    text-align: justify;
+}
