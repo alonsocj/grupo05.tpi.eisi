@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Christian Javier Ayala Guerra">
     <title>Tridimensional</title>
+    <meta
+      name="description"
+      content="Pagina sobre la Figuras tridimensioanles"
+    />
 
     <!--Cargo el css para la tabla-->
     <link rel="stylesheet" href="/css/styleTable.css">
@@ -13,9 +17,9 @@
 </head>
 <body>
 
-    <h1>Figuras Tridimensionales</h1>
+    <h1 class="titulos">Figuras Tridimensionales</h1>
 
-    <p>Las figuras tridimensionales (Conocidos también como Sólidos), son aquellas que poseen tres dimensiones,en las que toda figura tridimensional tiene una profundidad.</p>
+    <p class="parrafo">Las figuras tridimensionales (Conocidos también como <strong>Sólidos</strong>), son aquellas que poseen tres dimensiones,en las que toda figura tridimensional tiene una profundidad.</p>
 
     <p>
         La palabra tridimensional esta formada por raíces latinas y tiene dimensiones:
@@ -28,14 +32,24 @@
     </ul>
        
     <p>
-        Clasificación de las figuras tridimensionales: 
+       <strong>Clasificación de las figuras tridimensionales:</strong>  
         <br>
         <br>        
-        Poliedros: Son cuerpos geométricos por 4 o mas polígonos, Se clasifican en:
+       <strong>Poliedros: </strong>Son cuerpos geométricos por 4 o mas polígonos, Se clasifican en:
     </p>
     <ul>
         <li>Poliedro Concavo: Cuando alguna de sus caras no se puede apoyar en el plano</li>
         <li>Poliedro Convexo: Todos sus lados se pueden apoyar en el plano.</li>
+    </ul>
+    <p class="parrafo"><strong>Superficies Curvas: </strong>Son figuras planas formadas por una línea curva cerrada o 
+        una línea mixta cerrada y su interior. Cualquier figura plana que tenga 
+        una parte de su contorno que no sea recta, 
+        se considera una figura curva</p>
+    <p>Algunas superficies curvas son:</p>
+    <ul>
+        <li>Conos</li>
+        <li>Cilindro</li>
+        <li>Esfera</li>
     </ul>
 
     
@@ -48,7 +62,7 @@
     <!--sup sirve para elevar un número-->
 
     <table>
-        <caption>Figuras tridimensionales</caption>
+        <caption> Figuras tridimensionales</caption>
         <tbody>
             <tr>
                 <th rowspan="2" class="color">Número</th>
@@ -63,23 +77,23 @@
 
             <tr>
                 <td>1</td>
-                <td><img src="/imagenes/cilindro.svg" alt="[Imagen de Cilindro]"></td>
-                <td>2<code>&#928;</code> + 2<code>&#928;</code>r<sup>2</sup></td>
-                <td><code>&#928;</code>r<sup>2</sup>h</td>
+                <td><img src="/imagenes/Cilindro.PNG" alt="[Imagen de Cilindro]"></td>
+                <td class="formula">2<code>&#928;</code> + 2<code>&#928;</code>r<sup>2</sup></td>
+                <td class="formula"><code>&#928;</code>r<sup>2</sup>h</td>
             </tr>
 
             <tr>
                 <td>2</td>
                 <td><img src="/imagenes/Cono.jpg" alt="[Imagen de Cono]"></td>
-                <td><code>&#928;</code>R(R+a)</td>
-                <td><code>&#928;</code>hR<sup>2</sup>/3</td>
+                <td class="formula"><code>&#928;</code>R(R+a)</td>
+                <td class="formula"><code>&#928;</code>hR<sup>2</sup>/3</td>
             </tr>
             
             <tr>
                 <td>3</td>
                 <td><img src="/imagenes/ESfera.jpg" alt="[Imagen de Esfera]"></td>
-                <td>4<code>&#928;</code>r<sup>2</sup></td>
-                <td>4/3<code>&#928;</code>r<sup>3</sup></td>
+                <td class="formula">4<code>&#928;</code>r<sup>2</sup></td>
+                <td class="formula">4/3<code>&#928;</code>r<sup>3</sup></td>
             </tr>
 
         </tbody>
@@ -89,8 +103,9 @@
     <!--Se puede usar la etiqueta video si tenemos el video en el proyecto Hay que descargarlo-->
     <!--Podemos usar la etiqueta iframe para traerlo de un lugar externo-->
     
-    <h2>Video</h2>
-    <iframe width="700" height="483" src="https://www.youtube.com/embed/5GLduNQ5kA4" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    <h2 class="subtitulos">Video acerca de las figuras tridimensionales</h2>
+    <div class="videoPropiedades">
+        <iframe src="https://www.youtube.com/embed/5GLduNQ5kA4" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
