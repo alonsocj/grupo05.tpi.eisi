@@ -20,3 +20,44 @@ th, td{
 img{
     height: 200px;
 }
+
+/*Tanto para dimensional como para tridimencional*/
+.parrafo{
+    text-align: justify;
+}
+
+.titulos{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.subtitulos{
+    text-align: center;
+    color: rgb(3, 3, 107);
+    font-size: 30px;
+}
+
+body{
+    background-color: rgba(244, 249, 253, 0.884);
+}
+
+.videoPropiedades{
+    text-align: center;
+}
+
+iframe{
+    width: 1200px;
+    height: 600px;
+}
+
+caption{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.formula{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
