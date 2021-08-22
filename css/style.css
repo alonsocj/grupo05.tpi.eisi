@@ -1,55 +1,112 @@
 /*Barra de Navegación*/
 
-ol{
-    list-style-type: none; /*Le quito los puntos*/
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(58, 54, 54);
+ol {
+  list-style-type: none; /*Le quito los puntos*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(58, 54, 54);
 }
 
-.desplegable > li{
-    float: left;
+.desplegable > li {
+  float: left;
 }
 
-.desplegable li a{
-    display: block;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    min-width: 150px;
+.desplegable li a {
+  display: block;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  min-width: 150px;
 }
 
-.desplegable li ol{
-    display: none;
-    position: absolute;
-    min-width: 140px;
+.desplegable li ol {
+  display: none;
+  position: absolute;
+  min-width: 140px;
 }
 
 /*Al momento que pase el cursor cambiara el color - hover*/
-.desplegable li a:hover{
-    background-color: black;
+.desplegable li a:hover {
+  background-color: black;
 }
 
 /* > significa los elementos que sean directos */
 /*Esta es la propiedad en la que el menu se despliega*/
 
-.desplegable li:hover > ol{
-    display: block;
+.desplegable li:hover > ol {
+  display: block;
 }
 
-#encabezado{
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+#encabezado {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.operaciones{
-    font-weight: bold;
+.operaciones {
+  font-weight: bold;
 }
-.descripciones{
-    font-style: italic;
+.descripciones {
+  font-style: italic;
 }
-.parrafo{
-    text-align: justify;
+.parrafo {
+  text-align: justify;
+}
+
+/* boton de subir*/
+.go-top-container {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: -1;
+}
+.go-top-button {
+  width: 0rem;
+  height: 0rem;
+  background: #2071b2;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: -1;
+}
+.go-top-button svg {
+  position: absolute;
+  font-size: 1.7rem;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: #fff;
+  transition: 0.2s;
+}
+.show {
+  z-index: 10;
+}
+.show .go-top-button {
+  animation: popup 0.3s ease-in-out;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: 11;
+}
+.show svg {
+  transform: translate(-50%, -50%) scale(1);
+}
+@keyframes popup {
+  0% {
+    width: 0rem;
+    height: 0rem;
+  }
+  50% {
+    width: 8rem;
+    height: 8rem;
+  }
+  100% {
+    width: 6.6rem;
+    height: 6.6rem;
+  }
 }
