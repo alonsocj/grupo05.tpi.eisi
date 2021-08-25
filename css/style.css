@@ -1,13 +1,19 @@
 /*Barra de Navegación*/
 
-ol .nav{
-  list-style-type:upper-roman; /*Le quito los puntos*/
+ol {
+  list-style-type:none; /*Le quito los puntos*/
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgb(58, 54, 54);
 }
-
+ol .nav{
+  list-style-type:upper-roman; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(58, 54, 54);
+}
 .desplegable > li {
   float: left;
 }
