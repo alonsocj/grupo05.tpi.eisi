@@ -1,13 +1,7 @@
 
-body{
-  margin:1.5em;
-  padding:5em;
-}
-
-
 /*Barra de Navegación*/
 
-ol .desplegable{
+ol {
   list-style-type:none; /*Le quito los puntos*/
   margin: 0;
   padding: 0;
@@ -50,13 +44,13 @@ ol .desplegable{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*INDICE*/
+/*INDICE
 .indice li{
   list-style-type:upper-roman; 
   margin: 10em;
   padding: 0;
   overflow: hidden;
-}
+}*/
 
 
 
