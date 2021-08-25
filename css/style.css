@@ -7,7 +7,7 @@ body{
 
 /*Barra de Navegación*/
 
-ol{
+ol {
   list-style-type:none; /*Le quito los puntos*/
   margin: 0;
   padding: 0;
