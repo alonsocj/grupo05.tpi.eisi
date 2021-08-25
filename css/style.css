@@ -51,9 +51,9 @@ ol {
 }
 
 /*INDICE*/
-ol .indice li{
+.indice li{
   list-style-type:upper-roman; 
-  margin: 0;
+  margin: 10em;
   padding: 0;
   overflow: hidden;
 }
