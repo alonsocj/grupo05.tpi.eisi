@@ -44,13 +44,13 @@ ol {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*INDICE
+/*INDICE*/
 .indice li{
   list-style-type:upper-roman; 
   margin: 10em;
   padding: 0;
   overflow: hidden;
-}*/
+}
 
 
 
