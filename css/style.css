@@ -1,3 +1,9 @@
+*{
+  margin:1.5;
+  padding:5;
+}
+
+
 /*Barra de Navegación*/
 
 ol {
@@ -38,7 +44,13 @@ ol {
 .desplegable li:hover > ol {
   display: block;
 }
-ol .indice{
+#encabezado {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*INDICE*/
+ol .indice li{
   list-style-type:upper-roman; 
   margin: 0;
   padding: 0;
@@ -46,10 +58,6 @@ ol .indice{
 }
 
 
-#encabezado {
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .operaciones {
   font-weight: bold;
