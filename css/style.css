@@ -1,4 +1,9 @@
-
+.titulos{
+        text-align: center;
+        color: black;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
 /*Barra de Navegación*/
 
 ol {
@@ -78,12 +83,7 @@ ol {
   transform: translate(-50%, 50%);
   z-index: -1;
 }
-.titulos{
-        text-align: center;
-        color: black;
-        font-size: 50px;
-        text-transform: uppercase;
-    }
+
 .go-top-button svg {
   position: absolute;
   font-size: 1.7rem;
