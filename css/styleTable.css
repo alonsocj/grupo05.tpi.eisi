@@ -1,6 +1,6 @@
 /*Tamaño de la tabla*/
 table{
-    width: 100%;
+    width: 80%;
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -35,7 +35,7 @@ img{
 
 .subtitulos{
     text-align: center;
-    color: rgb(3, 3, 107);
+    color: black;
     font-size: 30px;
 }
 
@@ -48,8 +48,8 @@ body{
 }
 
 iframe{
-    width: 1200px;
-    height: 600px;
+    width: 560px;
+    height: 315px;
 }
 
 caption{
