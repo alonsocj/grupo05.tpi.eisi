@@ -1,6 +1,9 @@
 body{
   padding:5em 6em 5em 6em;
 }
+p{
+  text-align: justify;
+}
 
 .titulos {
         text-align: center;
