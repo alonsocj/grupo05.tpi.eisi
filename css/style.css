@@ -1,5 +1,5 @@
-img{
-  text-align: center;
+body{
+  padding:10em;
 }
 
 .titulos {
@@ -55,8 +55,8 @@ ol {
 /*Estilos del Indice*/
 
 .indice{
-  background-color: #2071b2;
-  padding: 30px;
+  background-color: #222b33e5;
+  padding: 40px;
 }
 
 .indice li {
