@@ -52,9 +52,29 @@ ol {
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
 }
-.indice li {
-  list-style-type:upper-roman; /*Le quito los puntos*/
+/*Estilos del Indice*/
+
+.indice{
+  background-color: #2071b2;
+  padding: 30px;
 }
+
+.indice li {
+  list-style-type:lower-roman; /*Le quito los puntos*/
+  color: rgb(1, 36, 148);
+  padding: 4px;
+}
+
+.indice li ul li a {
+  color:white;
+  text-decoration: none;
+}
+
+.indice li a{
+  color: white;
+  text-decoration: none;
+}
+
 
 .operaciones {
   font-weight: bold;
