@@ -12,7 +12,8 @@ th, td{
 }
 
 .color{
-    background-color: greenyellow;
+    background-color: #222b33e5;
+    text-color:white;
 }
 
 /*Definir un tamaño a la imagen*/
