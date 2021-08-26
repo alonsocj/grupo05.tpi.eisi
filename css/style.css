@@ -1,5 +1,8 @@
 body{
-  padding:0em 10em 0em 10em; 
+  padding-right: 6em;
+  padding-left: 6em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 p{
   text-align: justify;
