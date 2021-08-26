@@ -60,11 +60,14 @@ ol {
 }
 
 .indice li {
-  list-style-type:lower-roman; /*Le quito los puntos*/
+  list-style-type:upper-roman; /*Le quito los puntos*/
   color: rgb(1, 36, 148);
   padding: 4px;
 }
-
+.indice li ul li {
+  list-style-type:lower-roman
+  color:white;
+}
 .indice li ul li a {
   color:white;
   text-decoration: none;
