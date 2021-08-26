@@ -65,7 +65,6 @@ ol {
 .indice li {
   list-style-type:upper-roman; /*Le quito los puntos*/
   color:white;
-  color: rgb(1, 36, 148);
   padding: 4px;
 }
 .indice li ul li {
@@ -149,4 +148,4 @@ ol {
     width: 4.6rem;
     height: 4.6rem;
   }
-} 
+}
