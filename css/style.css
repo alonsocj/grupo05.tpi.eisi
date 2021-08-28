@@ -190,3 +190,15 @@ ol {
 dt a{
   color: #3b4252
 }
+
+/* Propiedades de Titulos  y subtitulos */
+
+.subtitulo{
+  text-align: center;
+  font-size: 40px;
+}
+
+.subtitulo2{
+  text-align: left;
+  font-size: 25px;
+}
